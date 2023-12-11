@@ -1,0 +1,186 @@
+
+Список тестов кода
+
+FAIL ./shop.test.js
+  Проверка работоспособности класса Good
+    ✓ Проверить значения свойств объекта типа Good (4 ms)
+    ✓ Проверить работоспособность метода setAvailable
+    ✓ Проверить значения свойств объекта типа Good после использования setAvailable (2 ms)
+  Проверка работоспособности класса GoodsList
+    ✕ Проверить пустой список товаров
+    ✕ Проверить список товаров после добавления товаров
+    ✕ Проверить список товаров после добавления существующих товаров
+    ✕ Проверить список товаров после удаления товаров (1 ms)
+    ✕ Проверить список товаров после удаления несуществующих товаров
+    ✕ Проверить список товаров после изменения товаров
+    ✕ Проверить список товаров после установки фильтра
+    ✕ Проверить список товаров после установки неприминимого фильтра
+    ✕ Проверить список товаров после включения сортировки по возрастанию
+    ✕ Проверить список товаров после включения сортировки по убыванию
+    ✕ Проверить список товаров после удаления всех товаров
+  Проверка работоспособности класса BasketGood
+    ✕ Проверить значения свойств объекта типа BasketGood
+    ✕ Проверить работоспособность метода setAvailable
+    ✕ Проверить значения свойств объекта типа Good после использования setAvailable
+  Проверка работоспособности класса Basket
+    ✓ Проверить пустую корзину
+    ✓ Проверить корзину после добавления новых товаров (1 ms)
+    ✕ Проверить корзину после добавления существующих товаров (1 ms)
+    ✕ Проверить корзину после уменьшения существующих товаров (1 ms)
+    ✕ Проверить корзину после удаления существующих товаров (1 ms)
+    ✕ Проверить корзину после удаления несуществующих товаров (1 ms)
+    ✓ Проверить корзину после удаления всех товаров (1 ms)
+    ✓ Проверить корзину после очистки (1 ms)
+    ✓ Проверить корзину после изменения товаров
+    ✓ Проверить корзину после очистки недоступных товаров (1 ms)
+
+  ● Проверка работоспособности класса GoodsList › Проверить пустой список товаров
+
+    expect(received).toHaveProperty(path)
+
+    Expected path: "remove"
+    Received path: []
+
+    Received value: {"filter": null, "sortDir": true, "sortPrice": false}
+
+  ● Проверка работоспособности класса GoodsList › Проверить список товаров после добавления товаров
+
+    expect(received).toHaveProperty(path)
+
+    Expected path: "remove"
+    Received path: []
+
+    Received value: {"filter": null, "sortDir": true, "sortPrice": false}
+
+  ● Проверка работоспособности класса GoodsList › Проверить список товаров после добавления существующих товаров
+
+    expect(received).toHaveProperty(path)
+
+    Expected path: "remove"
+    Received path: []
+
+    Received value: {"filter": null, "sortDir": true, "sortPrice": false}
+
+  ● Проверка работоспособности класса GoodsList › Проверить список товаров после удаления товаров
+
+    expect(received).toHaveProperty(path)
+
+    Expected path: "remove"
+    Received path: []
+
+    Received value: {"filter": null, "sortDir": true, "sortPrice": false}
+
+  ● Проверка работоспособности класса GoodsList › Проверить список товаров после удаления несуществующих товаров
+
+    expect(received).toHaveProperty(path)
+
+    Expected path: "remove"
+    Received path: []
+
+    Received value: {"filter": null, "sortDir": true, "sortPrice": false}
+
+  ● Проверка работоспособности класса GoodsList › Проверить список товаров после изменения товаров
+
+    expect(received).toHaveProperty(path)
+
+    Expected path: "remove"
+    Received path: []
+
+    Received value: {"filter": null, "sortDir": true, "sortPrice": false}
+
+  ● Проверка работоспособности класса GoodsList › Проверить список товаров после установки фильтра
+
+    expect(received).toHaveProperty(path)
+
+    Expected path: "remove"
+    Received path: []
+
+    Received value: {"filter": null, "sortDir": true, "sortPrice": false}
+
+  ● Проверка работоспособности класса GoodsList › Проверить список товаров после установки неприминимого фильтра
+
+    expect(received).toHaveProperty(path)
+
+    Expected path: "remove"
+    Received path: []
+
+    Received value: {"filter": null, "sortDir": true, "sortPrice": false}
+
+  ● Проверка работоспособности класса GoodsList › Проверить список товаров после включения сортировки по возрастанию
+
+    expect(received).toHaveProperty(path)
+
+    Expected path: "remove"
+    Received path: []
+
+    Received value: {"filter": null, "sortDir": true, "sortPrice": false}
+
+  ● Проверка работоспособности класса GoodsList › Проверить список товаров после включения сортировки по убыванию
+
+    expect(received).toHaveProperty(path)
+
+    Expected path: "remove"
+    Received path: []
+
+    Received value: {"filter": null, "sortDir": true, "sortPrice": false}
+
+  ● Проверка работоспособности класса GoodsList › Проверить список товаров после удаления всех товаров
+
+    expect(received).toHaveProperty(path)
+
+    Expected path: "remove"
+    Received path: []
+
+    Received value: {"filter": null, "sortDir": true, "sortPrice": false}
+
+  ● Проверка работоспособности класса BasketGood › Проверить значения свойств объекта типа BasketGood
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+  ● Проверка работоспособности класса BasketGood › Проверить работоспособность метода setAvailable
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+  ● Проверка работоспособности класса BasketGood › Проверить значения свойств объекта типа Good после использования setAvailable
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+  ● Проверка работоспособности класса Basket › Проверить корзину после добавления существующих товаров
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: 12
+    Received: 6
+
+  ● Проверка работоспособности класса Basket › Проверить корзину после уменьшения существующих товаров
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: 4
+    Received: 2
+
+  ● Проверка работоспособности класса Basket › Проверить корзину после удаления существующих товаров
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: 2
+    Received: 0
+
+  ● Проверка работоспособности класса Basket › Проверить корзину после удаления несуществующих товаров
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: 2
+    Received: 0
+
+Test Suites: 1 failed, 1 total
+Tests:       18 failed, 9 passed, 27 total
+Snapshots:   0 total
+Time:        2.001 s
+Ran all test suites.
